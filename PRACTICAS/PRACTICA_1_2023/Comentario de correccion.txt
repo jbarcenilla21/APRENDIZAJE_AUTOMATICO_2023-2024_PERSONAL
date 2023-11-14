@@ -1,0 +1,26 @@
+CALIFICACIÓN: 9/10
+
+
++ OK al uso de arrays para las clases
++ Muy bien ver el balance de la base de datos tanto en el conjunto de entrenamiento como en el conjunto de test
++ Bien el análisis exploratorio de datos (forma datos y visualización) Entrenamiento y Test
++ Muy bien poner enlaces a las fuentes de información utilizadas.
++ OK al escalado o normalización.
++ OK uso de Flatten (buena la explicación de su uso y resultados)
++ OK creación 8 modelos con bucle.
++ Bien la explicación del rendimiento de los diferentes modelos según su optimizador
++ OK a la explicación de donde salen las cifras del número de parámetros entrenables
++ Bien a la tabla de comparación de modelos, aunque hubiera preferido un gráfico.
++ OK al análisis con matrices de confusión.
++ OK al análisis estadístico de las respuestas
++ OK al uso de sparse_categorical_crossentropy
++ OK al uso de Adam
++ OK al uso de  gráficas comparativas de pérdidas, precisión aunque no habéis explicado los resultados 
+
+- Cuando se definen funciones propias, debéis indicar en comentarios o con markdown qué es lo que hacen y cómo funcionan (para unos datos de entrada, cuales son los datos de salida).
+- Me ha faltado más análisis sobre el sobreajuste. Pobre en este sentido dado que habéis usado las gráficas que lo explicarían. Cuando habéis hecho las 25 iteraciones, se sobreentrenaba mucho más, obviamente, pero la epoch a partir de la cual empieza a sobreentrenar es la misma, como es lógico.
+- Me ha faltado el análisis sobre el número de actualizaciones de parámetros
+- Me ha faltado algo de uso de inicialización de pesos distinto al que viene por defecto.
+- Me ha faltado la representación de la arquitectura de red gráficamente
+- Me han faltado gráficas y/o cuadros resumen de resultados en la evaluación de prendas.
+- Me han faltado gráficas de sobrentrenamiento de los diferentes casos.
